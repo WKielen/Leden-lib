@@ -1,4 +1,4 @@
-export class DictionaryModule {
+export class Dictionary {
   protected _keys: string[] = [];
   protected _values: any[] = [];
   // constructor(init: { key: string; value: any; }[]) {

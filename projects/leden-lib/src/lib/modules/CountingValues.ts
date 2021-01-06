@@ -1,9 +1,9 @@
 /***************************************************************************************************
 / Wordt gebruik voor het tellen van de leden per categorie
 /***************************************************************************************************/
-import { DictionaryModule } from "./Dictionary";
+import { Dictionary } from "./Dictionary";
 
-export class CountingValuesModule extends DictionaryModule {
+export class CountingValuesModule extends Dictionary {
 
     public Increment(key: string): void {
         if (this.containsKey(key)) {
